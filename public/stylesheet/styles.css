@@ -1,0 +1,45 @@
+@font-face {
+	font-family: typewriter;
+	src: url('/fonts/JMH\ Typewriter.otf');
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#main {
+	width: 100%;
+}
+
+.about > p {
+	color: white;
+	margin: 20px;
+}
+
+#guitars {
+	width: 100%;
+}
+
+.discography {
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.disc {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	justify-items: center;
+	margin: 30px;
+}
+
+h4 {
+	margin-top: 10px;
+	color:white;
+	font-family: typewriter;
+	font-size: 18px;
+}
